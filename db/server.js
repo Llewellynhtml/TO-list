@@ -6,7 +6,7 @@ const db = require("better-sqlite3")("database.db");
 const bcrypt = require("bcrypt");
 
 const app = express();
-const port = process.env.PORT || 3001;
+const port = 3004;
 
 app.use(cors());
 app.use(bodyParser.json());
